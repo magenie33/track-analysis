@@ -168,5 +168,5 @@ config/production.py
 *.bak
 *.backup
 
-# Tutorial folder (local documentation)
-tutorial/ 
+# Guide folder (local documentation)
+guide/ 

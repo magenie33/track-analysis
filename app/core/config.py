@@ -19,6 +19,7 @@ class Settings(BaseSettings):
     # Spotify API配置
     SPOTIFY_CLIENT_ID: Optional[str] = None
     SPOTIFY_CLIENT_SECRET: Optional[str] = None
+    SPOTIFY_REDIRECT_URI: str = "http://localhost:8000/auth/callback"
     
     # 安全配置
     SECRET_KEY: str = "your-secret-key-change-in-production"
